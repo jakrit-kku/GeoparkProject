@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/Phuwiangosaurus.unity
+    guid: 611dec5724f71584e924ff140807b0a1
   m_configObjects: {}

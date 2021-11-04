@@ -2160,10 +2160,12 @@ MonoBehaviour:
       Phuwiangosaurus was around 15-20 meters  in length. As a sauropod, it had a
       long neck, a long tail, stood on four legs and was an herbivore, mainly feeding
       from the tall trees in what is today's Phuwiang National Park.
+    skyboxMat: {fileID: 2100000, guid: 01f4eb1c73693428d923f1520032e7f9, type: 2}
     offsetValue: {x: 0, y: 8.46, z: -60}
   - dinoPref: {fileID: 7203284}
     dinoName: Phuwiangvenator
     dinoDes: Mai na Mangon wwwww
+    skyboxMat: {fileID: 2100000, guid: c82a334cf5a5e47978749c210cee72a7, type: 2}
     offsetValue: {x: 0, y: 4.67, z: -60}
   dinoNameText: {fileID: 1109752596}
   dinoDesText: {fileID: 348783536}

@@ -10,6 +10,7 @@ public class Dinosour
     public string dinoName;
     [TextArea(15,20)]
     public string dinoDes;
+    public Material skyboxMat;
     public Vector3 offsetValue;
 
     public void disableDino()
@@ -38,6 +39,7 @@ public class DinoSelector : MonoBehaviour
         {
             if (dinoClass.dinoName == dinoName)
             {
+                RenderSettings.skybox = dinoClass.skyboxMat;
                 dinoClass.enableDino();
                 dinoNameText.text = dinoClass.dinoName;
                 dinoDesText.text = dinoClass.dinoDes;
