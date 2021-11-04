@@ -8,7 +8,7 @@ public class Dinosour
 {
     public GameObject dinoPref;
     public string dinoName;
-    [TextArea]
+    [TextArea(15,20)]
     public string dinoDes;
     public Vector3 offsetValue;
 
