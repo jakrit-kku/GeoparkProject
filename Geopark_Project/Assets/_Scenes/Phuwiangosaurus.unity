@@ -2164,7 +2164,11 @@ MonoBehaviour:
     offsetValue: {x: 0, y: 8.46, z: -60}
   - dinoPref: {fileID: 7203284}
     dinoName: Phuwiangvenator
-    dinoDes: Mai na Mangon wwwww
+    dinoDes: Phuwiangvenator was one of the newest dinosaurs of early cretaceous
+      to  be discovered in Thailand. It had a small, slender stature, a long and
+      narrow snout, small arms, long legs and a long tail. It  might have used it
+      speed to outrun and catch unsuspected prey in what is now Phuwiang National
+      Park.
     skyboxMat: {fileID: 2100000, guid: c82a334cf5a5e47978749c210cee72a7, type: 2}
     offsetValue: {x: 0, y: 4.67, z: -60}
   dinoNameText: {fileID: 1109752596}
