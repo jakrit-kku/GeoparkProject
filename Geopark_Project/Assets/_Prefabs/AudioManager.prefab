@@ -44,8 +44,64 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - audioName: green1
+  - audioName: G1
     clip: {fileID: 8300000, guid: bf41d322bdf718f4f91e1859aff5e519, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
+  - audioName: G2
+    clip: {fileID: 8300000, guid: 04e4c3c0974573d40985b71e2ccd980d, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
+  - audioName: G3
+    clip: {fileID: 8300000, guid: c0febdda1336dbe44b8d69807588879c, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
+  - audioName: G4
+    clip: {fileID: 8300000, guid: ed082506c73e1704aa4cdba8f377f591, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
+  - audioName: Y1
+    clip: {fileID: 8300000, guid: a2e62e2ddbd68934cb27f28482b3f998, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
+  - audioName: Y2
+    clip: {fileID: 8300000, guid: f20c5bdcb844a0a47baa70504286c534, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
+  - audioName: Y3
+    clip: {fileID: 8300000, guid: 47d2225ed42f0b841a42c17ada4f6372, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
+  - audioName: Y$
+    clip: {fileID: 8300000, guid: 8ae21c85a924d164397b5a900876a2c8, type: 3}
     mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
     volumn: 1
     pitch: 1
