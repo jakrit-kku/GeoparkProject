@@ -512,8 +512,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 1196255763}
-  offset: {x: -0.6, y: 7.3, z: -35}
+  offset: {x: 0, y: 7.3, z: -50}
   scollZoomSpeed: {x: 0, y: 0, z: -5}
+  clampZMin: -50
+  clampZMax: -30
 --- !u!4 &264861857
 Transform:
   m_ObjectHideFlags: 0

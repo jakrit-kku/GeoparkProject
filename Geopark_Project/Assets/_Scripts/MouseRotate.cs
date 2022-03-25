@@ -7,6 +7,8 @@ public class MouseRotate : MonoBehaviour
     [SerializeField] Camera cam;
     [SerializeField] Vector3 offset;
     [SerializeField] Vector3 scollZoomSpeed;
+    [SerializeField] float clampZMin;
+    [SerializeField] float clampZMax;
     private Vector3 previousPos;
 
 
@@ -38,6 +40,8 @@ public class MouseRotate : MonoBehaviour
         {
             offset += scollZoomSpeed;
         }
+        offset.z = Mathf.Clamp(offset.z, clampZMin, clampZMax);  // clamp z value
+
         cam.transform.position = new Vector3();
         cam.transform.Translate(offset);
         previousPos = cam.ScreenToViewportPoint(Input.mousePosition);
