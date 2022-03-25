@@ -96,6 +96,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Eye Mat 01.001
     second: {fileID: 2100000, guid: ea2b9c85ac687ed4ea11841f078e885c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Phuwiangvenator_Mat.001
+    second: {fileID: 2100000, guid: 44b9a586eabc0424a859e0fbdea6bfaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Teeth Mat 02.001
+    second: {fileID: 2100000, guid: b56cce68b5953814d93383e21773acb7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
