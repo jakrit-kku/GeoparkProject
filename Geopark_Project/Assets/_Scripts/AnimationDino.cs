@@ -17,23 +17,26 @@ public class btnAnimName
 
 public class AnimationDino : MonoBehaviour
 {
-    [SerializeField] Color enableCol;
-    [SerializeField] Color disableCol;
+    [SerializeField] Color G_enableCol;
+    [SerializeField] Color G_disableCol;
+
+    [SerializeField] Color Y_enableCol;
+    [SerializeField] Color Y_disableCol;
 
     [SerializeField] Animator GreenDinoAnimator;
     [SerializeField] Animator YellowDinoAnimator;
     [SerializeField] btnAnimName[] allGreenButton;
     [SerializeField] btnAnimName[] allYellowButton;
-    [SerializeField] Slider SpeedSlider;
+    // [SerializeField] Slider SpeedSlider;
     private string nowState;
 
     private void Start() 
     {
 
-        SpeedSlider.onValueChanged.AddListener((v) => 
-        {
-            GreenDinoAnimator.speed = v;
-        });
+        // SpeedSlider.onValueChanged.AddListener((v) => 
+        // {
+        //     GreenDinoAnimator.speed = v;
+        // });
 
         foreach(btnAnimName _b in allGreenButton)
         {
@@ -44,39 +47,47 @@ public class AnimationDino : MonoBehaviour
         {
             _b.button.onClick.AddListener(delegate{setYellowAnim(_b);});
         }
+
+        setGreenAnim(allGreenButton[0]);
+        setYellowAnim(allYellowButton[0]);
+
+
     }
 
+    public void resetGreen()
+    {
+        setGreenAnim(allGreenButton[0]);
+    }
+
+    public void resetYellow()
+    {
+        setYellowAnim(allYellowButton[0]);
+    }
 
     public void setGreenAnim(btnAnimName targetObj)
     {
         foreach (btnAnimName b in allGreenButton)
         {
-            b.setSelfCol(disableCol);
+            b.setSelfCol(G_disableCol);
         }
         changeAnimState(targetObj.targetAnimName, GreenDinoAnimator);
-
-        // GreenDinoAnimator.SetTrigger(targetObj.targetAnimName);
-
-        targetObj.setSelfCol(enableCol);
+        targetObj.setSelfCol(G_enableCol);
     }
 
     public void setYellowAnim(btnAnimName targetObj)
     {
         foreach (btnAnimName b in allYellowButton)
         {
-            b.button.interactable = false;
+            b.setSelfCol(Y_disableCol);
         }
 
         changeAnimState(targetObj.targetAnimName, YellowDinoAnimator);
-
-        // YellowDinoAnimator.SetTrigger(targetObj.targetAnimName);
-        targetObj.setSelfCol(enableCol);
+        targetObj.setSelfCol(Y_enableCol);
     }
 
     public void changeAnimState(string newS, Animator _a)
     {
         if(nowState == newS) return;
-        Debug.Log(newS);
         _a.Play(newS);
         nowState = newS;
     }

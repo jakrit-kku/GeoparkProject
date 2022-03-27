@@ -100,10 +100,50 @@ MonoBehaviour:
     blend: 0
     loop: 0
     source: {fileID: 0}
-  - audioName: Y$
+  - audioName: Y4
     clip: {fileID: 8300000, guid: 8ae21c85a924d164397b5a900876a2c8, type: 3}
     mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
     volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
+  - audioName: Gcall1
+    clip: {fileID: 8300000, guid: 0592a6b08de27b94cb4fd43cf179f7c7, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
+  - audioName: Gcall2
+    clip: {fileID: 8300000, guid: 61d8e668b44c7df4995c289e416faed6, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
+  - audioName: Gcall3
+    clip: {fileID: 8300000, guid: a447cab4cd8d3a44ea4f2af8f73dc92e, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
+  - audioName: Ycall1
+    clip: {fileID: 8300000, guid: 52fb50d7a6611c546ab29cadff579d4d, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 0.694
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
+  - audioName: Ycall2
+    clip: {fileID: 8300000, guid: 31f3b00f58161b54aab877e8f4e4b6fe, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 0.789
     pitch: 1
     blend: 0
     loop: 0

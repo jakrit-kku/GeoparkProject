@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MouseRotate : MonoBehaviour
 {
@@ -22,6 +23,12 @@ public class MouseRotate : MonoBehaviour
 
         if (Input.GetMouseButton(0))
         {
+            // prevent rot when over UI
+            if(EventSystem.current.IsPointerOverGameObject())
+            {
+                return;
+            }
+
             Vector3 direction = previousPos - cam.ScreenToViewportPoint(Input.mousePosition);
             cam.transform.position = new Vector3();
 
