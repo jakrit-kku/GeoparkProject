@@ -1587,6 +1587,10 @@ MonoBehaviour:
     offsetValue: {x: 0, y: 0, z: -50}
   mouseRotScpt: {fileID: 264861856}
   AnimScpt: {fileID: 187058634}
+  greenBtn: {fileID: 1454060036}
+  YellowBtn: {fileID: 1432062084}
+  enableCol: {r: 1, g: 1, b: 1, a: 1}
+  disableCol: {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 0.76862746}
 --- !u!1 &256927711
 GameObject:
   m_ObjectHideFlags: 0

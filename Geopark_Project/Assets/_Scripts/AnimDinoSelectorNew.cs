@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 
 [System.Serializable]
@@ -26,6 +27,15 @@ public class AnimDinoSelectorNew : MonoBehaviour
     [SerializeField] DinoWithSky[] allDino;
     [SerializeField] MouseRotate mouseRotScpt;
     [SerializeField] AnimationDino AnimScpt;
+    [SerializeField] Image greenBtn;
+    [SerializeField] Image YellowBtn;
+    [SerializeField] Color enableCol;
+    [SerializeField] Color disableCol;
+
+    private void Start() 
+    {
+        selectDino("Green");
+    }
 
 
     public void selectDino(string dinoName)
@@ -43,18 +53,19 @@ public class AnimDinoSelectorNew : MonoBehaviour
             {
                 dinoClass.disableDino();
             }
-
-            if(dinoClass.dinoName == "Green")
-            {
-                AnimScpt.resetGreen();
-            }
-
-            if(dinoClass.dinoName == "Yellow")
-            {
-                AnimScpt.resetYellow();
-            }
-
             
+        }
+        if(dinoName == "Green")
+        {
+            AnimScpt.resetGreen();
+            greenBtn.color = enableCol;
+            YellowBtn.color = disableCol;
+        }
+        else if(dinoName == "Yellow")
+        {
+            AnimScpt.resetYellow();
+            YellowBtn.color = enableCol;
+            greenBtn.color = disableCol;
         }
     }
 
