@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class btnAnimName
 {
     public string targetAnimName;
+    public string SoundPlayName;
     public Button button;
 
     public void setSelfCol(Color _newCol)
@@ -28,7 +29,13 @@ public class AnimationDino : MonoBehaviour
     [SerializeField] btnAnimName[] allGreenButton;
     [SerializeField] btnAnimName[] allYellowButton;
     // [SerializeField] Slider SpeedSlider;
+
+    AudioSource[] allAudioSources;
+    AudioManager _aud;
+
     private string nowState;
+    string previousPlay;
+
 
     private void Start() 
     {
@@ -37,6 +44,11 @@ public class AnimationDino : MonoBehaviour
         // {
         //     GreenDinoAnimator.speed = v;
         // });
+
+
+        allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+        _aud = FindObjectOfType<AudioManager>();
+
 
         foreach(btnAnimName _b in allGreenButton)
         {
@@ -72,6 +84,10 @@ public class AnimationDino : MonoBehaviour
         }
         changeAnimState(targetObj.targetAnimName, GreenDinoAnimator);
         targetObj.setSelfCol(G_enableCol);
+
+        doPlayAud(targetObj);
+
+
     }
 
     public void setYellowAnim(btnAnimName targetObj)
@@ -83,6 +99,26 @@ public class AnimationDino : MonoBehaviour
 
         changeAnimState(targetObj.targetAnimName, YellowDinoAnimator);
         targetObj.setSelfCol(Y_enableCol);
+
+        doPlayAud(targetObj);
+
+    }
+
+    public void doPlayAud(btnAnimName _a)
+    {
+        // reclick 
+        StopAllAudio();
+        if(previousPlay == _a.SoundPlayName)
+        {
+            // reset name
+            previousPlay = "";
+            return;
+        }
+        else
+        {
+            _aud.Play(_a.SoundPlayName);
+        }
+        previousPlay = _a.SoundPlayName;
     }
 
     public void changeAnimState(string newS, Animator _a)
@@ -90,6 +126,14 @@ public class AnimationDino : MonoBehaviour
         if(nowState == newS) return;
         _a.Play(newS);
         nowState = newS;
+    }
+
+    void StopAllAudio() 
+    {
+        foreach( AudioSource audioS in allAudioSources) 
+        {
+            audioS.Stop();
+        }
     }
 
 

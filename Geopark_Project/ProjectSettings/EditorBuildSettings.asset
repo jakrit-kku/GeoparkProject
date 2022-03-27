@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Transcript.unity
     guid: fe50d8be2522cbf46bc37c7c520d1976
+  - enabled: 1
+    path: Assets/_Scenes/DinoAnimation.unity
+    guid: cf2b740840789dd4999a3795d7ec2629
   m_configObjects: {}
