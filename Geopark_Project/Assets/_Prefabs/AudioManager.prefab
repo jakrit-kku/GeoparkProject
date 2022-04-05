@@ -172,3 +172,83 @@ MonoBehaviour:
     blend: 0
     loop: 0
     source: {fileID: 0}
+  - audioName: D1
+    clip: {fileID: 8300000, guid: bdbaa108669100c418dfb19529c31d23, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
+  - audioName: D2
+    clip: {fileID: 8300000, guid: 8983b9927893773499d97d7cdd53f2c8, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
+  - audioName: D3
+    clip: {fileID: 8300000, guid: a3457d97ec2932344b057516a8636648, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
+  - audioName: D4
+    clip: {fileID: 8300000, guid: e0881dff22a80834ea1d25417dd78d9f, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
+  - audioName: D5
+    clip: {fileID: 8300000, guid: f4c6a6a034638a34a927ab65ad3721dc, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
+  - audioName: D6
+    clip: {fileID: 8300000, guid: 5b53e01f56dedfd488cf91a096f3363d, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
+  - audioName: D7
+    clip: {fileID: 8300000, guid: 7899a397066895c44b4a9d5694bc541b, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
+  - audioName: D8
+    clip: {fileID: 8300000, guid: 6fb35134e5aa08b4f829e74f7d180677, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
+  - audioName: D9
+    clip: {fileID: 8300000, guid: 6fb35134e5aa08b4f829e74f7d180677, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
+  - audioName: TranWelcome
+    clip: {fileID: 8300000, guid: 26a3719b3ed9d9548a8e0fd1731c3911, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
