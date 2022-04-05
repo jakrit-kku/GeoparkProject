@@ -156,3 +156,19 @@ MonoBehaviour:
     blend: 0
     loop: 0
     source: {fileID: 0}
+  - audioName: Welcome
+    clip: {fileID: 8300000, guid: 15f557350c7acfb43be601fd203728f4, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
+  - audioName: DigWelcome
+    clip: {fileID: 8300000, guid: ef651b8bbc79aa04d91d86884c40a301, type: 3}
+    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
+    volumn: 1
+    pitch: 1
+    blend: 0
+    loop: 0
+    source: {fileID: 0}
