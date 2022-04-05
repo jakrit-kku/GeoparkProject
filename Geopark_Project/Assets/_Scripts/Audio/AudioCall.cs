@@ -13,6 +13,9 @@ public class AudioCall : MonoBehaviour
     {
         _aud = FindObjectOfType<AudioManager>();
 
+        _aud.stopAll(); // stop all sound when go to new scene
+
+
         if (startPlayName == "")
         {
             return;

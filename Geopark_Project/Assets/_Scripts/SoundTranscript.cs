@@ -23,8 +23,6 @@ public class SoundTranscript : MonoBehaviour
     [SerializeField] Color originalCol;
     [SerializeField] Color playingCol;
 
-
-    AudioSource[] allAudioSources;
     AudioManager _aud;
 
     string previousPlay;
@@ -33,9 +31,8 @@ public class SoundTranscript : MonoBehaviour
     private void Start() 
     {
 
-        allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
-
         _aud = FindObjectOfType<AudioManager>();
+
         foreach (ButtonAndSoundName _b in allSoundButton)
         {
             _b.button.onClick.AddListener(delegate{playSoundChangeImage(_b.targetSoundName, _b);});
@@ -69,12 +66,7 @@ public class SoundTranscript : MonoBehaviour
         {
             _b.changeImage(imgStop, originalCol);
         }
-
-        foreach( AudioSource audioS in allAudioSources) 
-        {
-            audioS.Stop();
-        }
-        
+        _aud.stopAll();        
     }
 
 
