@@ -5,6 +5,7 @@ public class AudioCall : MonoBehaviour
     // ใช้กะพวกปุ่มที่เชื่อม audio manage ตรงจาก scene ไม่ได้ 
     // ในกรณีที่ scene เปลี่ยนมาจาก mainmenu แล้ว audio manager reset
     [SerializeField] string startPlayName;
+    [SerializeField] bool doPlayAtStart = true;
     AudioManager _aud;
     [SerializeField] string[] audioNameList;
 
@@ -13,16 +14,19 @@ public class AudioCall : MonoBehaviour
     {
         _aud = FindObjectOfType<AudioManager>();
 
-        _aud.stopAll(); // stop all sound when go to new scene
 
+        if(doPlayAtStart)
+        {
+            _aud.stopAll(); // stop all sound when go to new scene
 
-        if (startPlayName == "")
-        {
-            return;
-        }
-        else
-        {
-            playSound(startPlayName);
+            if (startPlayName == "")
+            {
+                return;
+            }
+            else
+            {
+                playSound(startPlayName);
+            }
         }
     }
 

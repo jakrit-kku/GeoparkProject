@@ -6632,6 +6632,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Anim_Phuwiangosaurus
       objectReference: {fileID: 0}
+    - target: {fileID: 8754444544101709076, guid: 393914197feb5d74b915bb76e4c4c667, type: 3}
+      propertyPath: doPlayAtStart
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8810557612078505948, guid: 393914197feb5d74b915bb76e4c4c667, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -6940,6 +6944,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 213231847}
     m_Modifications:
+    - target: {fileID: 2467000957468916633, guid: 03bfa3b90b2d6aa47891832a5e3130ea, type: 3}
+      propertyPath: doPlayAtStart
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6202395731963100398, guid: 03bfa3b90b2d6aa47891832a5e3130ea, type: 3}
       propertyPath: m_Name
       value: Anim_Phuwiangvenator

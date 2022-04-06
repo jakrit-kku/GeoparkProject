@@ -28,25 +28,17 @@ public class AnimationDino : MonoBehaviour
     [SerializeField] Animator YellowDinoAnimator;
     [SerializeField] btnAnimName[] allGreenButton;
     [SerializeField] btnAnimName[] allYellowButton;
-    // [SerializeField] Slider SpeedSlider;
 
-    AudioSource[] allAudioSources;
+
     AudioManager _aud;
 
     private string nowState;
-    string previousPlay;
+    string previousPlay = "";
 
 
     private void Start() 
     {
 
-        // SpeedSlider.onValueChanged.AddListener((v) => 
-        // {
-        //     GreenDinoAnimator.speed = v;
-        // });
-
-
-        allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
         _aud = FindObjectOfType<AudioManager>();
 
 
@@ -59,10 +51,6 @@ public class AnimationDino : MonoBehaviour
         {
             _b.button.onClick.AddListener(delegate{setYellowAnim(_b);});
         }
-
-        setGreenAnim(allGreenButton[0]);
-        setYellowAnim(allYellowButton[0]);
-
 
     }
 
@@ -87,7 +75,6 @@ public class AnimationDino : MonoBehaviour
 
         doPlayAud(targetObj);
 
-
     }
 
     public void setYellowAnim(btnAnimName targetObj)
@@ -106,11 +93,14 @@ public class AnimationDino : MonoBehaviour
 
     public void doPlayAud(btnAnimName _a)
     {
+        Debug.Log(_a.SoundPlayName);
+
+
         // reclick 
-        StopAllAudio();
+        _aud.stopAll();
         if(previousPlay == _a.SoundPlayName)
         {
-            // reset name
+            // reset name  and  stop
             previousPlay = "";
             return;
         }
@@ -118,6 +108,7 @@ public class AnimationDino : MonoBehaviour
         {
             _aud.Play(_a.SoundPlayName);
         }
+
         previousPlay = _a.SoundPlayName;
     }
 
@@ -128,20 +119,6 @@ public class AnimationDino : MonoBehaviour
         nowState = newS;
     }
 
-    void StopAllAudio() 
-    {
-        foreach( AudioSource audioS in allAudioSources) 
-        {
-            audioS.Stop();
-        }
-    }
-
-
-
-    // public void greenWalk()
-    // {
-    //     GreenDinoAnimator.SetTrigger("Walk");
-    // }
 
 
 }
