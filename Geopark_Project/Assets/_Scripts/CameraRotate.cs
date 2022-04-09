@@ -31,6 +31,8 @@ public class CameraRotate : MonoBehaviour
             speed = v;
         });
 
+        setRotSpeed();
+
     }
 
     public void doSwitchRotate()
