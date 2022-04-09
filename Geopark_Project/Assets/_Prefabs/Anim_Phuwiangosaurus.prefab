@@ -216,6 +216,36 @@ Transform:
   m_Father: {fileID: 1698139578468727797}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 1.4364756, y: -0.00015378246, z: -0.000025517651}
+--- !u!1 &1722048825208973817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4045459619754771980}
+  m_Layer: 0
+  m_Name: G_CamTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4045459619754771980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722048825208973817}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8810557612078505948}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2044118098931510953
 GameObject:
   m_ObjectHideFlags: 0
@@ -1613,6 +1643,7 @@ Transform:
   - {fileID: 501507204418260802}
   - {fileID: 2895158939604687600}
   - {fileID: 1167575963654312656}
+  - {fileID: 4045459619754771980}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1647,6 +1678,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3508fafe5fa88de4a962338c9b4674cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startPlayName: 
+  doPlayAtStart: 1
   audioNameList:
   - Gcall1
   - Gcall2
