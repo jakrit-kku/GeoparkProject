@@ -228,14 +228,6 @@ MonoBehaviour:
     blend: 0
     loop: 0
     source: {fileID: 0}
-  - audioName: D8
-    clip: {fileID: 8300000, guid: 6fb35134e5aa08b4f829e74f7d180677, type: 3}
-    mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
-    volumn: 1
-    pitch: 1
-    blend: 0
-    loop: 0
-    source: {fileID: 0}
   - audioName: D9
     clip: {fileID: 8300000, guid: 6fb35134e5aa08b4f829e74f7d180677, type: 3}
     mixerGroup: {fileID: -4680625848444875328, guid: c93b4b9eac9a24b40a8ba5195c3b714c, type: 2}
