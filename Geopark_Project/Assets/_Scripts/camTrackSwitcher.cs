@@ -17,6 +17,8 @@ public class camTrackSwitcher : MonoBehaviour
     public Cinemachine.CinemachineSmoothPath startPath;
     public TrackAndDino[] alterPath;
 
+    int _previousNum;
+
     void Start()
     {
         DoReset();
@@ -35,10 +37,29 @@ public class camTrackSwitcher : MonoBehaviour
         cart.m_Position = Random.Range(0, 2);
         cart.m_Speed = Random.Range(.2f, .6f);
 
-        var path = alterPath[Random.Range(0, alterPath.Length)];
+
+        var path = alterPath[getNotOldNum()];
+
         cart.m_Path = path.path;
         virCam.LookAt = path.targetPrefab;
         StartCoroutine(ChangeTrack());
+
+    }
+
+    int getNotOldNum()
+    {
+        
+        int newIndex = Random.Range(0, alterPath.Length);
+
+        while (newIndex == _previousNum)
+        {
+            newIndex = Random.Range(0, alterPath.Length);
+        }
+
+        _previousNum = newIndex;
+
+        return newIndex;
+
 
     }
 
