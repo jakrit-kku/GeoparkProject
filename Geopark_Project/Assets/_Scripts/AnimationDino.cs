@@ -93,7 +93,6 @@ public class AnimationDino : MonoBehaviour
 
     public void doPlayAud(btnAnimName _a)
     {
-        Debug.Log(_a.SoundPlayName);
 
 
         // reclick 
