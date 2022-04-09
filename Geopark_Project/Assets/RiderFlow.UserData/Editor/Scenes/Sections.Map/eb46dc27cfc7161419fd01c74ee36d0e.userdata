@@ -7,5 +7,14 @@
     "SectionAltColorRed": 0.5,
     "SectionAltColorGreen": 0.125,
     "SectionAltColorBlue": 0.125
+  },
+  "GlobalObjectId_V1-2-eb46dc27cfc7161419fd01c74ee36d0e-929628528-0": {
+    "GameObjectId": "GlobalObjectId_V1-2-eb46dc27cfc7161419fd01c74ee36d0e-929628528-0",
+    "SectionColorRed": 0.8333333,
+    "SectionColorGreen": 1.0,
+    "SectionColorBlue": 0.5,
+    "SectionAltColorRed": 0.375,
+    "SectionAltColorGreen": 0.5,
+    "SectionAltColorBlue": 0.125
   }
 }
