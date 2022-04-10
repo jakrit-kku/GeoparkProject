@@ -242,14 +242,26 @@ PrefabInstance:
       propertyPath: m_text
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1765550230998184171, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -28.00003
+      objectReference: {fileID: 0}
     - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_text
       value: Dong Keng
       objectReference: {fileID: 0}
     - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_fontSize
-      value: 26.85
+      value: 22.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+    - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
     - target: {fileID: 1765550231777438763, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_SizeDelta.y
       value: -360
@@ -266,8 +278,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_fontSize
-      value: 27.95
+      value: 29.65
       objectReference: {fileID: 0}
+    - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+    - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
     - target: {fileID: 5919353549365743023, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_Name
       value: PlaySoundButton6
@@ -399,7 +419,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 200, y: -47}
+  m_AnchoredPosition: {x: 200, y: -36}
   m_SizeDelta: {x: 490, y: 60}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &121681646
@@ -424,8 +444,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Dig Sites
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+  m_sharedMaterial: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -617,8 +637,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 377004872}
   m_HandleRect: {fileID: 377004871}
   m_Direction: 0
-  m_Value: 0.000000042238863
-  m_Size: 0.5434439
+  m_Value: -0.000000042238874
+  m_Size: 0.543444
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -857,8 +877,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_fontSize
-      value: 23
+      value: 22.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+    - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
     - target: {fileID: 1765550231777438763, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_SizeDelta.y
       value: -593
@@ -874,8 +902,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_fontSize
-      value: 41.5
+      value: 25.3
       objectReference: {fileID: 0}
+    - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+    - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
     - target: {fileID: 5919353549365743023, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_Name
       value: PlaySoundButton3
@@ -933,6 +969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPlayName: DigWelcome
+  doPlayAtStart: 1
   audioNameList: []
 --- !u!4 &552269383
 Transform:
@@ -1352,14 +1389,26 @@ PrefabInstance:
       propertyPath: m_text
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1765550230998184171, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -28.00003
+      objectReference: {fileID: 0}
     - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_text
       value: Sum Ya Ka
       objectReference: {fileID: 0}
     - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_fontSize
-      value: 26.85
+      value: 22.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+    - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
     - target: {fileID: 1765550231777438763, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_SizeDelta.y
       value: -320
@@ -1377,8 +1426,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_fontSize
-      value: 26.15
+      value: 27.4
       objectReference: {fileID: 0}
+    - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+    - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
     - target: {fileID: 5919353549365743023, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_Name
       value: PlaySoundButton5
@@ -1999,14 +2056,26 @@ PrefabInstance:
       propertyPath: m_text
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1765550230998184171, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -28.00003
+      objectReference: {fileID: 0}
     - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_text
       value: Phu Noi
       objectReference: {fileID: 0}
     - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_fontSize
-      value: 26.85
+      value: 22.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+    - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
     - target: {fileID: 1765550231777438763, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_SizeDelta.y
       value: -388
@@ -2025,8 +2094,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_fontSize
-      value: 23.65
+      value: 21.8
       objectReference: {fileID: 0}
+    - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+    - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
     - target: {fileID: 5919353549365743023, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_Name
       value: PlaySoundButton7
@@ -2176,6 +2253,14 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 18
       objectReference: {fileID: 0}
+    - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+    - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
     - target: {fileID: 1765550231777438763, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_SizeDelta.y
       value: -270
@@ -2195,8 +2280,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_fontSize
-      value: 22.55
+      value: 24.6
       objectReference: {fileID: 0}
+    - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+    - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
     - target: {fileID: 5919353549365743023, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_Name
       value: PlaySoundButton4
@@ -2698,6 +2791,14 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 22.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+    - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
     - target: {fileID: 1765550231777438763, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_SizeDelta.y
       value: -410
@@ -2715,8 +2816,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_fontSize
-      value: 26.05
+      value: 24.05
       objectReference: {fileID: 0}
+    - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+    - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
     - target: {fileID: 5919353549365743023, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_Name
       value: PlaySoundButton2
@@ -2922,6 +3031,26 @@ PrefabInstance:
       propertyPath: m_text
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 1765550230998184171, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -28
+      objectReference: {fileID: 0}
+    - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_text
+      value: Hin Lad Yao
+      objectReference: {fileID: 0}
+    - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_fontSize
+      value: 22.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+    - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
     - target: {fileID: 1765550231777438763, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_SizeDelta.y
       value: -310
@@ -2942,8 +3071,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_fontSize
-      value: 20.7
+      value: 21.35
       objectReference: {fileID: 0}
+    - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+    - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
     - target: {fileID: 5919353549365743023, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_Name
       value: PlaySoundButton9
@@ -3065,6 +3202,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1765550230398125403, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_fontSize
+      value: 22.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+    - target: {fileID: 1765550230998184172, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+    - target: {fileID: 1765550231777438763, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -111
+      objectReference: {fileID: 0}
+    - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_fontSize
+      value: 21.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+    - target: {fileID: 1765550231777438764, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
     - target: {fileID: 5919353549365743023, guid: 786f4b9562d9e0d4793ab481742e521c, type: 3}
       propertyPath: m_Name
       value: PlaySoundButton1

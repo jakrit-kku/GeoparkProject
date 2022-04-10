@@ -408,8 +408,8 @@ MonoBehaviour:
     hind legs and a carnivorous diet, meaning it ate meat as their primary source
     of food."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+  m_sharedMaterial: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -859,8 +859,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Phuwiangvenator yaemniyomi
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+  m_sharedMaterial: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2000,8 +2000,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Transcript
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+  m_sharedMaterial: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2816,7 +2816,7 @@ MonoBehaviour:
     and weigh around seventeen tons. Like all sauropods, its front and back legs
     were strong and pillar-like, used to support its immense weight.\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2880,7 +2880,7 @@ MonoBehaviour:
   m_margin: {x: 30, y: 0, z: 10, w: 10}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1186966097
@@ -2997,6 +2997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPlayName: TranWelcome
+  doPlayAtStart: 1
   audioNameList: []
 --- !u!4 &1250358290
 Transform:
@@ -3169,8 +3170,8 @@ MonoBehaviour:
     that it occupied the niche of pursuit predators, like lions, cheetahs and wolves,
     which all actively chase after prey and run them down for their meal.\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+  m_sharedMaterial: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3309,7 +3310,7 @@ MonoBehaviour:
     of today. It\u2019s also possible that they use their long neck to help transmit
     their vocal calls far and wide, like broadcasting sounds from a signal pole."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3373,7 +3374,7 @@ MonoBehaviour:
   m_margin: {x: 30, y: 0, z: 10, w: 10}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1367349752
@@ -3605,7 +3606,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Phuwiangosaurus sirindhornae
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3669,7 +3670,7 @@ MonoBehaviour:
   m_margin: {x: 30, y: 30, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1533927194
@@ -4259,8 +4260,8 @@ MonoBehaviour:
     cousin, Australovenator, which is about the same size, it could be guessed that
     it weighed around five hundred kilograms to one ton.\r\n\t"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+  m_sharedMaterial: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4831,7 +4832,7 @@ MonoBehaviour:
     behavior. Potential predators would have to think twice before engaging and risk
     being flattened to the ground."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -4895,7 +4896,7 @@ MonoBehaviour:
   m_margin: {x: 30, y: 0, z: 10, w: 10}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1897033675
@@ -5344,8 +5345,8 @@ MonoBehaviour:
     being stolen away, Phuwiangvenator could stand its ground and vocalize, warning
     potential threats of what it's capable of."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
+  m_sharedMaterial: {fileID: 4013562475194027232, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5483,7 +5484,7 @@ MonoBehaviour:
     dinosaur, a clade of large dinosaurs that walked on all four legs, had a long
     neck, a long tail and were herbivorous, meaning it fed on plants.\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e69c38eb172cf644cbf55825f1d4a9c8, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -5547,7 +5548,7 @@ MonoBehaviour:
   m_margin: {x: 30, y: 0, z: 10, w: 10}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2095432345
